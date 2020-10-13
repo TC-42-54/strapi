@@ -219,7 +219,7 @@ program
 program
   .command('admin:reset-password')
   .alias('admin:reset')
-  .description('Reset an admin user password')
+  .description("Reset an admin user's password")
   .option('-e, --email <email>', 'The user email')
   .option('-p, --password <password>', 'New password for the user')
   .action(getLocalScript('admin-reset'));
